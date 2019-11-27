@@ -5,4 +5,4 @@ html = open("https://flatironschool.com/")
 
 doc = Nokogiri::HTML(html)
 
-doc.cssI()
+doc.cssI(open())
